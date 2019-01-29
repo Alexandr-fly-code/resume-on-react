@@ -12,6 +12,7 @@
 
 .name_about_me {
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .wrap_contact, .text_about_me {

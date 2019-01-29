@@ -8,4 +8,8 @@
     margin: auto;
     background-color: #939497;
     height: 1px;
+    margin-top: 1rem;
+}
+.Experience_skills {
+    display: flex;
 }
