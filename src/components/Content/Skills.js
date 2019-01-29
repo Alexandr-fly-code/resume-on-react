@@ -10,7 +10,7 @@ const Skills = () => {
         {type: "Javascript", level: 80},
         {type: "React", level: 80},
         {type: "Redux", level: 76},
-        {type: "Redux-Saga", level: 65},
+        {type: "Saga", level: 65},
         {type: "HTML5", level: 90},
         {type: "CSS", level: 85},
         {type: "BEM", level: 80},
