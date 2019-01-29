@@ -1,0 +1,24 @@
+.FullName {
+    padding: 4.8rem 3.5rem 3rem 3.5rem;
+    flex-basis: 50%;
+    text-align: center;
+    border-right: 1px solid #939497;
+}
+.Logo {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 220px;
+    background: white;
+}
+.name, .position {
+    color: #ffffff;
+}
+.name, .surname {
+    font-size: 1.8rem;
+}
+.up_size {
+    text-transform: uppercase;
+}
+.surname {
+    color: #ba7532;
+}

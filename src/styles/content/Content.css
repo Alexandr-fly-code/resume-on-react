@@ -1,0 +1,11 @@
+.Content {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.Line {
+    width: 85%;
+    margin: auto;
+    background-color: #939497;
+    height: 1px;
+}
