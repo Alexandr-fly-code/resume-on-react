@@ -1,0 +1,14 @@
+.Hobbies {
+    flex-basis: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.wrap_hobbies {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.item_hobbies {
+    width: 3rem;
+    height: 3rem;
+}

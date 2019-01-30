@@ -22,7 +22,7 @@ const Skills = () => {
         <div className="Skills">
             <SectionName name="Skills"/>
 
-            <SkillBar skills={skills} 
+            <SkillBar skills={skills} animationDelay={1000}
             colors = {{
                 bar: '#222222',
                 background: "red"

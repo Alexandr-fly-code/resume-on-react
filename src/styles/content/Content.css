@@ -10,6 +10,6 @@
     height: 1px;
     margin-top: 1rem;
 }
-.Experience_skills {
+.Experience_skills, .Hobbies_Language {
     display: flex;
 }
