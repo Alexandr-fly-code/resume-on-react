@@ -22,3 +22,15 @@
 .surname {
     color: #ba7532;
 }
+.git_link{
+    color: #528ebe;
+}
+.git_link:hover{
+    color: #ffffff;
+}
+
+@media  (max-width: 768px) {
+    .FullName {
+        padding: 4.8rem 3.5rem 0rem 3.5rem;
+    }
+  }

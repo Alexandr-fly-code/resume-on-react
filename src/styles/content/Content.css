@@ -13,3 +13,9 @@
 .Experience_skills, .Hobbies_Language {
     display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+    .Experience_skills, .Hobbies_Language {
+        display: unset;
+    }
+  }

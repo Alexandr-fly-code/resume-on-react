@@ -5,8 +5,15 @@ import Skills from './Skills';
 
 const ExperienceAndSkills = () => {
     return (
-        <div className="Experience_skills">
-            <Experience/>
+        <div className="Experience_skills" >
+            <Experience 
+                positionOrNameProject="Front End developer" 
+                startOrBeginProject="2015" 
+
+                stackTechnology={null} 
+                stack={null}
+                nameCompanyOrProject="Projects"
+                description="description"/>
             <Skills/>
         </div>
     );

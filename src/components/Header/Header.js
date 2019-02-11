@@ -14,8 +14,9 @@ export default class Header extends Component {
         <FullName/>
         <AboutMe/>
       </div>
+      
       <div className="Line"></div>
-      <Navigation/>
+        <Navigation/>
       </>
     )
   }

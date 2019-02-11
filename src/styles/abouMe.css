@@ -24,3 +24,11 @@
 .color_info, .text_about_me {
     color: #ffffff;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .AboutMe {
+        padding: 0.8rem 5rem 0.5rem 2.8rem;
+    }
+  }
+

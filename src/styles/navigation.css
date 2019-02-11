@@ -17,5 +17,10 @@
 a {
     text-decoration: none;
     color: #ffffff;
-
 }
+
+@media only screen and (max-width: 768px) {
+    .nav, .Line {
+        display: none;
+    }
+  }
