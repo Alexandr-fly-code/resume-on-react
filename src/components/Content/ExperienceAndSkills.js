@@ -9,7 +9,7 @@ const ExperienceAndSkills = () => {
             <Experience 
                 positionOrNameProject="Front End developer" 
                 startOrBeginProject="2015" 
-
+                sectionName="Projects"
                 stackTechnology={null} 
                 stack={null}
                 nameCompanyOrProject="Projects"

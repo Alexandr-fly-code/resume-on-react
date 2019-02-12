@@ -1,26 +1,33 @@
 import React from 'react';
 import Mailto from 'react-protected-mailto';
-
+import SectionName from '../Content/SectionName';
 
 import '../../styles/abouMe.css';
 
+
+import { contacts } from '../data/contacts';
+import { objective } from '../data/objective';
+
 const AboutMe = () => {
+    // console.log(contacts);
+    const { phone, email, skype, area } = contacts;
+    const { text } = objective;
     return (
         <div className="AboutMe">
             <div className="TopAboutMe">
                 <ul className="wrap_contact">
-                    <li><span className="color_text">Phone</span> <span className="color_info">: +380630767672</span></li>
-                    <li><span className="color_text">Area</span> <span className="color_info">: Kiev</span></li>
+                    <SectionName name="Contacts"/>
+                    <li><span className="color_text">Phone</span> <span className="color_info">: {phone}</span></li>
+                    <li><span className="color_text">Area</span> <span className="color_info">: {area}</span></li>
                     <li><span className="color_text">Email</span> <span className="color_info">:
                     <Mailto
-                        email='alexandr1997stupak@gmail.com'
+                        email={email}
                         headers={
                             {subject:'alexandr1997stupak@gmail.com'},
                             {cc:'alexandr1997stupak@gmail.com'}
                         }/></span></li>
-                    
-
-
+                    <li><span className="color_text">Skype</span> <span className="color_info">: {skype}</span></li>
+                    <li><span className="color_text">Linkedin</span> <a className="color_info color_active" href="https://www.linkedin.com/in/alexandr-stupak-b1454916a/" target="_blank">: go to profile :)</a></li>
                 </ul>
             </div>
             <div className="BottomAboutMe">
@@ -28,7 +35,7 @@ const AboutMe = () => {
                     objective
                 </p>
                 <p className="text_about_me">
-                    Porttitor amet massa Done cporttitor dolor et nisl lorem ipsum dolor molaternpretium iscon fringilla delislibero lorem ipsum sollicitudin est porttitor. tempus id fringilla. onsectetur cing elit.Nulla lorem lectus ornare diam in molestie pretium clelislibero lorem.
+                        {text}
                 </p>
             </div>
         </div>

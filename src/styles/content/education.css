@@ -8,6 +8,16 @@
 .developer_position {
     text-transform: uppercase;
 }
+.company_name_blue {
+    color: #528ebe;
+    text-transform: uppercase;
+}
+.demo_link {
+    color: #528ebe;
+}
+.demo_link:hover {
+    color: #808183;
+}
 /* .Projects{
     background-color: #ffffff;
 } */

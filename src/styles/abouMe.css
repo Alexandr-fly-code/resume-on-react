@@ -24,6 +24,12 @@
 .color_info, .text_about_me {
     color: #ffffff;
 }
+.color_active {
+    color: #528ebe;
+}
+.color_active:hover {
+    color: #ffffff;
+}
 
 
 @media only screen and (max-width: 768px) {

@@ -1,25 +1,40 @@
 import React from 'react';
 import Education from './Education';
 
+import SectionName from './SectionName';
+
+import '../../styles/content/projects.css';
+
+import { projects } from '../data/projects';
+
 const Projects = () => {
+
+    // console.log(projects.projects)
 
     const stack = {
         serpstat: "react, redux, redux-saga",
     }
 
     const { serpstat } = stack;
+    const { project } = projects;
+
     return (
         <div className="Projects">
+        <span className="projects_text"><SectionName name="Projects"/></span>
+        {project.map(({name, description, stack, github, demo}) =>
             <Education 
                 // background="Projects"
-                positionOrNameProject="Front End developer" 
-                startOrBeginProject="2015" 
+                positionOrNameProject={null} 
+                startOrBeginProject={null} 
                 sectionName="Projects"
-                stackTechnology={serpstat} 
+                stackTechnology={stack} 
                 stack="Stack Technology"
-                nameCompanyOrProject="Projects"
-                description="description"
+                nameCompanyOrProject={name}
+                description={description}
+                github={github}
+                demo={demo}
             />
+            )}
         </div>
     );
 }

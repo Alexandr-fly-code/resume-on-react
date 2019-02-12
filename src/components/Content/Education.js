@@ -13,12 +13,14 @@ const Education = (
         nameCompanyOrProject,
         description,
         sectionName,
+        github,
+        demo,
         // background,
     }
 ) => {
     return (
         <div className="Education">
-            <SectionName name={sectionName}/>
+            <SectionName name={sectionName === "Projects" ? null: sectionName}/>
             <div className="wrap_colum_exp">
             
                 <div className="left_exp">
@@ -29,8 +31,17 @@ const Education = (
                     
                 </div>
                 <div className="right_exp">
-                    <p className="company_name">{nameCompanyOrProject}</p>
+                    <p className={sectionName !== "Projects" ? "company_name" : "company_name_blue"}>{nameCompanyOrProject}</p>
                     <p className="description">{description}</p>
+
+                { sectionName === "Projects" ? github !== null || demo !== null ? 
+                    <>
+                        <p>Github : <a className="description" href={github} target="_blank" className="demo_link">{github}</a></p>
+                        <p>Demo : <a className="description" href={demo} target="_blank" className="demo_link">{demo}</a></p>
+                    </>
+                    : null
+                    : null
+                }
                 </div>
             
             </div>
