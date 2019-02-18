@@ -2,3 +2,8 @@
     position: absolute;
     padding-top: 1%;
 }
+.Projects::after{
+    content: '';
+    border-bottom: 1px solid lightgrey;
+    display: block;
+}

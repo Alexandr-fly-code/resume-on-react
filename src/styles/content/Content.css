@@ -10,6 +10,9 @@
     height: 1px;
     margin-top: 1rem;
 }
+.Hobbies_Language {
+    border-top: 1px solid lightgrey;
+}
 .Experience_skills, .Hobbies_Language {
     display: flex;
 }
@@ -17,5 +20,9 @@
 @media only screen and (max-width: 768px) {
     .Experience_skills, .Hobbies_Language {
         display: unset;
+    }
+    .Experience_skills {
+        display: flex;
+        flex-direction: column-reverse;
     }
   }

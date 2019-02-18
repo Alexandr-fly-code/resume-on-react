@@ -5,6 +5,7 @@
 }
 .wrap_colum_exp {
     display: flex;
+    flex-direction: row-reverse;
     font-size: 1.1rem;
 }
 .left_exp {
