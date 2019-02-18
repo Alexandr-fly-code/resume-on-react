@@ -4,6 +4,7 @@
 }
 .section_exp {
     margin-top: 0;
+    text-align: center;
 }
 .developer_position {
     text-transform: uppercase;
@@ -18,6 +19,8 @@
 .demo_link:hover {
     color: #808183;
 }
+
+
 /* .Projects{
     background-color: #ffffff;
 } */

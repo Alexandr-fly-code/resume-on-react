@@ -1,6 +1,7 @@
 .projects_text {
     position: absolute;
     padding-top: 1%;
+    width: 100%;
 }
 .Projects::after{
     content: '';
