@@ -12,3 +12,9 @@ li {
 ul{
   padding: 0;
 }
+.skillbar-percent{
+  display: none;
+}
+.skillbar {
+  background-color: #fbac03;
+}

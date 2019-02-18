@@ -8,3 +8,11 @@
     border-bottom: 1px solid lightgrey;
     display: block;
 }
+
+
+@media (max-width: 375px){
+    .projects_text {
+        position: static;
+        color: #ffffff;
+    }
+}

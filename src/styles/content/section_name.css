@@ -2,6 +2,12 @@
     text-align: left;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #434244;
-    
+    color: #434244;   
+}
+
+
+@media (max-width: 375px){
+    .section_exp {
+        color: #ffffff;   
+    }
 }

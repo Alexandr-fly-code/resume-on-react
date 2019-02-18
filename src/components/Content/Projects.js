@@ -20,7 +20,7 @@ const Projects = () => {
 
     return (
         <div className="Projects">
-        <p className="projects_text"><SectionName name="Projects"/></p>
+        <div className="projects_text"><SectionName name="Projects"/></div>
         {project.map(({name, description, stack, github, demo}) =>
             <Education 
                 // background="Projects"
@@ -33,6 +33,7 @@ const Projects = () => {
                 description={description}
                 github={github}
                 demo={demo}
+                key={name}
             />
             )}
         </div>
