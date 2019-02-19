@@ -8,6 +8,7 @@ export const experiences = {
             "HTML, JavaScript coding",
             "Create Single-Page Application",
         ],
+        id: Date.now(),
     },
     {
         name: "UPSCALE ACADEMY",
@@ -18,6 +19,7 @@ export const experiences = {
             "Teamwork on scrum system",
             "Create Single-Page Application",
         ],
+        id: Date.now(),
     },
     
     {
@@ -29,6 +31,7 @@ export const experiences = {
             "Meeting people for an job interview",
             "Communication with clients, students, teachers and job seekers",
         ],
+        id: Date.now(),
     },
 
 ]

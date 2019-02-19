@@ -27,11 +27,30 @@ const Hobbies = () => {
 
             <ul className="wrap_hobbies">
                 
-                <li className="item_hobbies"><img src={Photography} alt={photo}/>Photo</li>
-                <li className="item_hobbies"><img src={Code} alt={code}/>Code</li>
-                <li className="item_hobbies"><img src={Tennis} alt={tennis}/>Tennis</li>
-                <li className="item_hobbies"><img src={Music} alt={music}/>Music</li>
-                <li className="item_hobbies"><img src={Little} alt={little}/>Little tennis</li>
+                <li className="item_hobbies">
+                    <img 
+                        src={Photography} 
+                        alt={photo}/>Photo</li>
+
+                <li className="item_hobbies">
+                    <img 
+                        src={Code} 
+                        alt={code}/>Code</li>
+
+                <li className="item_hobbies">
+                    <img 
+                        src={Tennis} 
+                        alt={tennis}/>Tennis</li>
+
+                <li className="item_hobbies">
+                    <img 
+                        src={Music} 
+                        alt={music}/>Music</li>
+
+                <li className="item_hobbies">
+                    <img 
+                        src={Little} 
+                        alt={little}/>Little tennis</li>
             </ul>
         </div>
     );

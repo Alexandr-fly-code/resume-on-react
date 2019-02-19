@@ -11,13 +11,14 @@ const ExperienceAndSkills = () => {
     return (
         <div className="Experience_skills" >
             <Experience 
-                positionOrNameProject="Front End developer" 
-                startOrBeginProject="2015" 
-                sectionName="Projects"
-                stackTechnology={null} 
-                stack={null}
-                nameCompanyOrProject="Projects"
-                description="description"/>
+                // positionOrNameProject="Front End developer" 
+                // startOrBeginProject="2015" 
+                // sectionName="Projects"
+                // stackTechnology={null} 
+                // stack={null}
+                // nameCompanyOrProject="Projects"
+                // description="description"
+                />
             <Skills/>
         </div>
     );

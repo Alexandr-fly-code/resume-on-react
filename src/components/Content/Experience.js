@@ -13,22 +13,16 @@ const Experience = () => {
         <div className="Experience">
             <SectionName name="Experience"/>
             <div className="wrap_colum_exp expirience_fix">
-            
-                {/* <div className="left_exp">
-                {experience.map(el => 
-                <>
-                    <p className="developer_position">{el.position}</p>
-                    <p className="start_work">{el.workPeriod}</p>
-                </>
-                )} 
-                </div> */}
                 
                 <div className="right_exp">
                 {experience.map(el => 
                 <>
-                    <p className="company_name">{el.name} <span className="developer_position">{el.position} </span><p>({el.workPeriod})</p></p>
+                    <div className="company_name">{el.name} 
+                            <span className="developer_position" >{el.position} </span>
+                            <p>({el.workPeriod})</p>
+                        </div>
                     <ul>
-                        {el.activity.map(item => <ol className="description">{item}</ol>)}
+                        {el.activity.map(item => <ol className="description" >{item}</ol>)}
                     </ul>
                 </>
                 )}        
