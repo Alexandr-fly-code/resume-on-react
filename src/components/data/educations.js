@@ -1,9 +1,10 @@
 export const educations = {
     education: [
+         
         {
-            educationalInstitution: "INDUSTRIAL AND PEDAGOGICAL TECHNICAL OF KONOTOPSKY INSTITUTE",
-            professionalDirection: "Software development",
-            yearsOfStudy: "2012-2016",
+            educationalInstitution: "GOIT|FULLSTACK OFFLINE AND IT BOOTCAMP",
+            professionalDirection: "Front-End Developer",
+            yearsOfStudy: "2017-2018",
         },
         {
             educationalInstitution: "NATIONAL TECHNICAL UNIVERSITY OF UKRAINE 'IGOR SIKORSKY KYIV POLYTECHNIC INSTITUTE (NTUU \"KPI\")",
@@ -11,10 +12,11 @@ export const educations = {
             yearsOfStudy: "2016-2019",
         },
         {
-            educationalInstitution: "GOIT|FULLSTACK OFFLINE AND IT BOOTCAMP",
-            professionalDirection: "Front-End Developer",
-            yearsOfStudy: "2017-2018",
+            educationalInstitution: "INDUSTRIAL AND PEDAGOGICAL TECHNICAL OF KONOTOPSKY INSTITUTE",
+            professionalDirection: "Software development",
+            yearsOfStudy: "2012-2016",
         },
+       
 
 ]
 }
