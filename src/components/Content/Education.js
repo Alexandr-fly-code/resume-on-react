@@ -36,8 +36,8 @@ const Education = (
 
                 { sectionName === "Projects" ? github !== null || demo !== null ? 
                     <>
-                        <p>Github : <a className="description" href={github} target="_blank" className="demo_link">{github}</a></p>
-                        <p>Demo : <a className="description" href={demo} target="_blank" className="demo_link">{demo}</a></p>
+                        <p>Github : <a className="description" href={github} target="_blank" rel="noopener noreferrer" className="demo_link">{github}</a></p>
+                        <p>Demo : <a className="description" href={demo} target="_blank" rel="noopener noreferrer" className="demo_link">{demo}</a></p>
                     </>
                     : null
                     : null

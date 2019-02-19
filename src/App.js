@@ -7,7 +7,6 @@ import Header from './components/Header/Header';
 import Content from './components/Content/Content';
 
 import ExperienceAndSkills from './components/Content/ExperienceAndSkills';
-import Education from './components/Content/Education';
 import Hobbies from './components/Content/Hobbies';
 import Projects from './components/Content/Projects';
 

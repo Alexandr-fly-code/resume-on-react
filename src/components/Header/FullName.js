@@ -4,7 +4,7 @@ import '../../styles/fullName.css';
 const FullName = () => {
     return (
         <div className="FullName">
-            <img className="Logo" />
+            <img className="Logo" alt="logo"/>
                 <ul className="wrap_full_name">
                     <li className="up_size">
                         <p className="name">alexandr 
@@ -15,7 +15,7 @@ const FullName = () => {
 
                     <li>
                         <span className="up_size position">github</span>
-                        <a className="position git_link" href="https://github.com/Alexandr-fly-code" target="_blank"> : https://github.com/Alexandr-fly-code</a></li>
+                        <a className="position git_link" href="https://github.com/Alexandr-fly-code" rel="noopener noreferrer" target="_blank"> : https://github.com/Alexandr-fly-code</a></li>
 
                 </ul>
         </div>

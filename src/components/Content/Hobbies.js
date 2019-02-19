@@ -4,7 +4,6 @@ import '../../styles/content/hobbies.css';
 import Photography from '../../img/photo-camera.svg';
 import Music from '../../img/headphones.svg';
 import Code from '../../img/html.svg';
-import Basketball from '../../img/basketball.svg';
 import Tennis from '../../img/tennis-ball.svg';
 import Little from '../../img/pin-pong.svg';
 
