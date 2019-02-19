@@ -34,6 +34,7 @@
 }
 .expirience_fix {
     /* display: block; */
+    flex-direction: unset;
 }
 .tetss {
     /* flex-basis: 30%; */
