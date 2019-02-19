@@ -4,7 +4,7 @@ import '../../styles/fullName.css';
 const FullName = () => {
     return (
         <div className="FullName">
-            <img className="Logo" alt="logo"/>
+            <p className="Logo"></p>
                 <ul className="wrap_full_name">
                     <li className="up_size">
                         <p className="name">alexandr 
