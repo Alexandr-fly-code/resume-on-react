@@ -9,7 +9,6 @@ import { contacts } from '../data/contacts';
 import { objective } from '../data/objective';
 
 const AboutMe = () => {
-    // console.log(contacts);
     const { phone, email, skype, area } = contacts;
     const { text } = objective;
     return (

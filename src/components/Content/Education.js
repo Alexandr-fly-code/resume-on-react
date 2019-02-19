@@ -19,7 +19,7 @@ const Education = (
     }
 ) => {
     return (
-        <div className="Education">
+        <div className="Education_section">
             <SectionName name={sectionName === "Projects" ? null: sectionName}/>
             <div className="wrap_colum_exp">
             

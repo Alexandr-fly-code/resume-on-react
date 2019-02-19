@@ -6,9 +6,8 @@ import Experience from './Experience';
 import Skills from './Skills';
 
 
-const ExperienceAndSkills = ({props}) => {
+const ExperienceAndSkills = () => {
 
-    console.log(props)
     return (
         <div className="Experience_skills" >
             <Experience 

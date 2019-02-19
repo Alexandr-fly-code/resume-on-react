@@ -2,7 +2,7 @@ export const experiences = {
     experience: 
     [{
         name: "SERPSTAT (REMOTE)",
-        position: "Front-End developer",
+        position: "- Front-End developer",
         workPeriod: "Oct 2018- Present",
         activity: [
             "HTML, JavaScript coding",
@@ -11,7 +11,7 @@ export const experiences = {
     },
     {
         name: "UPSCALE ACADEMY",
-        position: "Junior Front-End developer",
+        position: "- Junior Front-End developer",
         workPeriod: "Dec 2017- Oct 2018",
         activity: [
             "HTML coding website",
@@ -22,7 +22,7 @@ export const experiences = {
     
     {
         name: "GOIT",
-        position: "Office manager",
+        position: "- Office manager",
         workPeriod: "Jan 2018- Sep 2018",
         activity: [
             "Preparation of classrooms for classes",

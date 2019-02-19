@@ -10,15 +10,16 @@ import Language from './Language';
 
 import Projects from './Projects';
 
-import { experiences } from '../data/experience';
+import { educations } from '../data/educations';
 
+import SectionName from '../Content/SectionName';
 
 
 import '../../styles/content/Content.css';
 
 export default class Content extends Component {
   render() {
-    const { experience } = experiences;
+    const { education } = educations;
     return (
       <div className="Content">
       <Projects/>
@@ -29,15 +30,24 @@ export default class Content extends Component {
           <Skills/>
 
         </div>
-        <Education 
-          // background="Education"
-          sectionName="Education"
-          positionOrNameProject="Middle" 
-          startOrBeginProject="Jan 2017 - Dec 2015" 
-          stackTechnology={null}
-          stack={null}
-          nameCompanyOrProject="Works In Lorem Ipsum - United States"
-          description="Porttitor amet massa Done cporttitor dolor et nisl lorem ipsum dolor molaternpretium iscon fringilla delislibero lorem ipsum sollicitudin est porttitor. tempus id fringilla. onsectetur cing elit.Nulla lorem lectus ornare diam in molestie pretium clelislibero lorem."/>
+        <div className="Education">
+        
+        <SectionName name="Education"/>
+        {education.map(({educationalInstitution, professionalDirection, yearsOfStudy }) => 
+          
+          <Education 
+            sectionName={null}
+            positionOrNameProject={null} 
+            startOrBeginProject={yearsOfStudy} 
+            stackTechnology={null}
+            stack={null}
+            nameCompanyOrProject={educationalInstitution}
+            description={professionalDirection}
+            key={yearsOfStudy}/>
+            
+        )}
+        </div>
+
         
 
         <div className="Hobbies_Language">

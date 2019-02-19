@@ -8,7 +8,10 @@
     width: 13rem;
     height: 13rem;
     border-radius: 220px;
-    background: white;
+    /* background: white; */
+    background-image: url("../img/avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .name, .position {
     color: #ffffff;

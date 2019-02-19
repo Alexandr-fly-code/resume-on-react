@@ -9,13 +9,6 @@ import { projects } from '../data/projects';
 
 const Projects = () => {
 
-    // console.log(projects.projects)
-
-    // const stack = {
-    //     serpstat: "react, redux, redux-saga",
-    // }
-
-    // const { serpstat } = stack;
     const { project } = projects;
 
     return (
@@ -23,7 +16,6 @@ const Projects = () => {
         <div className="projects_text"><SectionName name="Projects"/></div>
         {project.map(({name, description, stack, github, demo}) =>
             <Education 
-                // background="Projects"
                 positionOrNameProject={null} 
                 startOrBeginProject={null} 
                 sectionName="Projects"

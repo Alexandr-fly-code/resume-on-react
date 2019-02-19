@@ -1,4 +1,4 @@
-.Education {
+.Education, .Education_section {
     background-color: #ffffff;
     padding: 10px;
 }
@@ -19,8 +19,6 @@
 .demo_link:hover {
     color: #808183;
 }
-
-
-/* .Projects{
-    background-color: #ffffff;
-} */
+.start_work, .company_name_blue {
+    color: #528ebe;
+}
