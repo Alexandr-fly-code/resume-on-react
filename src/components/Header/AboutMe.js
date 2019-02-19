@@ -17,9 +17,9 @@ const AboutMe = () => {
             <div className="TopAboutMe">
                 <ul className="wrap_contact">
                     <SectionName name="Contacts"/>
-                    <li><span className="color_text">Phone</span> <span className="color_info">: {phone}</span></li>
-                    <li><span className="color_text">Area</span> <span className="color_info">: {area}</span></li>
-                    <li><span className="color_text">Email</span> <span className="color_info">:
+                        <li><span className="color_text">Phone</span> <span className="color_info">: {phone}</span></li>
+                        <li><span className="color_text">Area</span> <span className="color_info">: {area}</span></li>
+                        <li><span className="color_text">Email</span> <span className="color_info">:
                     <Mailto
                         email={email}
                         headers={

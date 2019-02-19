@@ -10,16 +10,21 @@ import Language from './Language';
 
 import Projects from './Projects';
 
+import { experiences } from '../data/experience';
+
+
 
 import '../../styles/content/Content.css';
 
 export default class Content extends Component {
   render() {
+    const { experience } = experiences;
     return (
       <div className="Content">
       <Projects/>
       
         <div className="Experience_skills">
+        
           <Experience/>
           <Skills/>
 

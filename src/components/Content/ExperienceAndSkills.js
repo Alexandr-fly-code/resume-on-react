@@ -5,7 +5,10 @@ import '../../styles/content/experienceAndSkills.css';
 import Experience from './Experience';
 import Skills from './Skills';
 
-const ExperienceAndSkills = () => {
+
+const ExperienceAndSkills = ({props}) => {
+
+    console.log(props)
     return (
         <div className="Experience_skills" >
             <Experience 

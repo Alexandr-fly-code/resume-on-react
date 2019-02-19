@@ -11,11 +11,11 @@ const Projects = () => {
 
     // console.log(projects.projects)
 
-    const stack = {
-        serpstat: "react, redux, redux-saga",
-    }
+    // const stack = {
+    //     serpstat: "react, redux, redux-saga",
+    // }
 
-    const { serpstat } = stack;
+    // const { serpstat } = stack;
     const { project } = projects;
 
     return (

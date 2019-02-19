@@ -5,7 +5,7 @@ import '../../styles/content/section_name.css';
 const SectionName = ({name}) => {
     return (
         <>
-            <p className="section_exp">{name}</p>
+            <p className={name === "Projects" ? "section_project" : "section_exp"}>{name}</p>
         </>
     );
 }

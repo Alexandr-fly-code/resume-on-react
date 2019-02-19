@@ -28,7 +28,19 @@
 .start_work, .description {
     color: #808183;
 }
-
+.description {
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+.expirience_fix {
+    /* display: block; */
+}
+.tetss {
+    /* flex-basis: 30%; */
+    
+    display: flex;
+    justify-content: space-between;
+}
 @media only screen and (max-width: 910px) {
 .right_exp {
     padding-left: 2rem;
