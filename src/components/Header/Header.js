@@ -8,11 +8,12 @@ import Navigation from './Navigation';
 
 export default class Header extends Component {
   render() {
+    const { dataObjective, dataContacts } = this.props;
     return (
       <>
       <div className="Header">
-        <FullName/>
-        <AboutMe/>
+        <FullName />
+        <AboutMe dataObjective={dataObjective} dataContacts={dataContacts}/>
       </div>
       
       <div className="Line"></div>

@@ -4,13 +4,9 @@ import SectionName from '../Content/SectionName';
 
 import '../../styles/abouMe.css';
 
-
-import { contacts } from '../data/contacts';
-import { objective } from '../data/objective';
-
-const AboutMe = () => {
-    const { phone, email, skype, area } = contacts;
-    const { text } = objective;
+const AboutMe = ({dataObjective, dataContacts}) => {
+    const { phone, email, skype, area } = dataContacts;
+    const { text } = dataObjective;
     return (
         <div className="AboutMe">
             <div className="TopAboutMe">

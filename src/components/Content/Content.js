@@ -10,23 +10,23 @@ import Language from './Language';
 
 import Projects from './Projects';
 
-import { educations } from '../data/educations';
 
 import SectionName from '../Content/SectionName';
 
 
 import '../../styles/content/Content.css';
-
 export default class Content extends Component {
+  
   render() {
+    const { projects, experiences, educations } = this.props.data;
     const { education } = educations;
     return (
       <div className="Content">
-      <Projects/>
-      
+
+      <Projects projects={projects}/>
         <div className="Experience_skills">
         
-          <Experience/>
+        <Experience experience={experiences}/>
           <Skills/>
 
         </div>

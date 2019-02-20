@@ -6,11 +6,11 @@ import Experience from './Experience';
 import Skills from './Skills';
 
 
-const ExperienceAndSkills = () => {
-
+const ExperienceAndSkills = ({...rest}) => {
     return (
         <div className="Experience_skills" >
             <Experience 
+                experience={rest.experience}
                 // positionOrNameProject="Front End developer" 
                 // startOrBeginProject="2015" 
                 // sectionName="Projects"

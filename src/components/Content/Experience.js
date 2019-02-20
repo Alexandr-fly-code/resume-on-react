@@ -2,12 +2,9 @@ import React from 'react';
 import '../../styles/content/experience.css';
 import SectionName from './SectionName';
 
-import { experiences } from '../data/experience';
+const Experience = ({...rest}) => {
 
-
-const Experience = () => {
-
-    const { experience } = experiences;
+    const { experience } = rest.experience;
    
     return (
         <div className="Experience">
@@ -34,6 +31,7 @@ const Experience = () => {
             
           </div>
     );
+
 }
 
 export default Experience;

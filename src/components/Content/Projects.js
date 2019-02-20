@@ -5,16 +5,14 @@ import SectionName from './SectionName';
 
 import '../../styles/content/projects.css';
 
-import { projects } from '../data/projects';
-
-const Projects = () => {
-
-    const { project } = projects;
+const Projects = ({...rest}) => {
+   console.log(rest)
+    if (rest.projects !== null){
 
     return (
         <div className="Projects">
         <div className="projects_text"><SectionName name="Projects"/></div>
-        {project.map(({name, description, stack, github, demo}) =>
+        {rest.projects.project.map(({name, description, stack, github, demo}) =>
             <Education 
                 positionOrNameProject={null} 
                 startOrBeginProject={null} 
@@ -29,7 +27,10 @@ const Projects = () => {
             />
             )}
         </div>
-    );
+    )
+}else {
+    return null;
+}
 }
 
 export default Projects;
