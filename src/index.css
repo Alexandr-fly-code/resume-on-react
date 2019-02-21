@@ -13,3 +13,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.skillbar-title {
+  width: 100% !important;
+  background: none !important;
+}
