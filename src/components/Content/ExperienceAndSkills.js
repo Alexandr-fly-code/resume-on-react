@@ -11,13 +11,6 @@ const ExperienceAndSkills = ({...rest}) => {
         <div className="Experience_skills" >
             <Experience 
                 experience={rest.experience}
-                // positionOrNameProject="Front End developer" 
-                // startOrBeginProject="2015" 
-                // sectionName="Projects"
-                // stackTechnology={null} 
-                // stack={null}
-                // nameCompanyOrProject="Projects"
-                // description="description"
                 />
             <Skills/>
         </div>

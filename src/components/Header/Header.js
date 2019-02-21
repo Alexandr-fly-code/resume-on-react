@@ -6,6 +6,8 @@ import FullName from './FullName';
 import AboutMe from './AboutMe';
 import Navigation from './Navigation';
 
+import PropTypes from 'prop-types'
+
 export default class Header extends Component {
   render() {
     const { dataObjective, dataContacts } = this.props;
@@ -21,4 +23,9 @@ export default class Header extends Component {
       </>
     )
   }
+}
+
+Header.propTypes = {
+  dataObjective: PropTypes.object,
+  dataContacts: PropTypes.object,
 }

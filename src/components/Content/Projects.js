@@ -2,16 +2,16 @@ import React from 'react';
 import Education from './Education';
 
 import SectionName from './SectionName';
+import PropTypes from 'prop-types';
 
 import '../../styles/content/projects.css';
 
 const Projects = ({...rest}) => {
-   console.log(rest)
-    if (rest.projects !== null){
 
     return (
         <div className="Projects">
-        <div className="projects_text"><SectionName name="Projects"/></div>
+            <div className="projects_text">
+        <SectionName name="Projects"/></div>
         {rest.projects.project.map(({name, description, stack, github, demo}) =>
             <Education 
                 positionOrNameProject={null} 
@@ -28,9 +28,12 @@ const Projects = ({...rest}) => {
             )}
         </div>
     )
-}else {
-    return null;
+
 }
+
+Projects.propTypes = {
+    rest: PropTypes.object,
 }
+
 
 export default Projects;

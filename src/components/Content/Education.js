@@ -4,6 +4,8 @@ import '../../styles/content/education.css';
 
 import SectionName from './SectionName';
 
+import PropTypes from 'prop-types';
+
 const Education = (
     {
         positionOrNameProject,
@@ -47,6 +49,18 @@ const Education = (
             </div>
         </div>
     );
+}
+
+Education.propTypes = {
+        positionOrNameProject: PropTypes.string,
+        startOrBeginProject: PropTypes.string,
+        stackTechnology:PropTypes.string,
+        stack: PropTypes.string,
+        nameCompanyOrProject: PropTypes.string,
+        description: PropTypes.string,
+        sectionName: PropTypes.string,
+        github: PropTypes.string,
+        demo: PropTypes.string,
 }
 
 export default Education;

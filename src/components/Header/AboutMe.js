@@ -2,6 +2,8 @@ import React from 'react';
 import Mailto from 'react-protected-mailto';
 import SectionName from '../Content/SectionName';
 
+import PropTypes from 'prop-types';
+
 import '../../styles/abouMe.css';
 
 const AboutMe = ({dataObjective, dataContacts}) => {
@@ -48,4 +50,9 @@ const AboutMe = ({dataObjective, dataContacts}) => {
     );
 };
 
+
+AboutMe.propTypes = {
+    dataObjective: PropTypes.object,
+    dataContacts: PropTypes.object,
+  }
 export default AboutMe;

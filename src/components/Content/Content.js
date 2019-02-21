@@ -13,6 +13,8 @@ import Projects from './Projects';
 
 import SectionName from '../Content/SectionName';
 
+import PropTypes from 'prop-types';
+
 
 import '../../styles/content/Content.css';
 export default class Content extends Component {
@@ -57,4 +59,32 @@ export default class Content extends Component {
       </div>
     )
   }
+
+
+
+}
+
+
+
+Content.propTypes = {
+  data: PropTypes.objectOf(PropTypes.shape({
+    contacts: PropTypes.objectOf(PropTypes.shape({
+      phone: PropTypes.string,
+      email: PropTypes.string,
+      skype: PropTypes.string,
+      area: PropTypes.string,
+    })),
+    educations: PropTypes.objectOf(PropTypes.shape({
+      education: PropTypes.array,
+    })),
+    experiences: PropTypes.objectOf(PropTypes.shape({
+      experience: PropTypes.array,
+    })),
+    objective: PropTypes.objectOf(PropTypes.shape({
+      text: PropTypes.string,
+    })),
+    projects: PropTypes.arrayOf(PropTypes.shape({
+      project: PropTypes.array,
+    }))
+  }))
 }
