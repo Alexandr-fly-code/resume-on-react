@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/headphones.d2852c37.svg"
   },
   {
-    "revision": "85e29a81ad818b086589",
-    "url": "/static/css/main.4570d445.chunk.css"
+    "revision": "9daf426375e477807287",
+    "url": "/static/css/main.b214bf40.chunk.css"
   },
   {
     "revision": "9b76948911e9c197b00f",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/photo-camera.506975e6.svg"
   },
   {
-    "revision": "85e29a81ad818b086589",
-    "url": "/static/js/main.85e29a81.chunk.js"
+    "revision": "9daf426375e477807287",
+    "url": "/static/js/main.9daf4263.chunk.js"
   },
   {
     "revision": "d38694f809859add39e67cffc90c3006",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/avatar.90a9536e.png"
   },
   {
-    "revision": "eb1536829b6f424ba24f8a4d4f46b97c",
+    "revision": "5b80bc2ac5784cc2bbc7ee7d71ef5578",
     "url": "/index.html"
   }
 ];

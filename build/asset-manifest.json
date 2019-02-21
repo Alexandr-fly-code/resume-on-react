@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.4570d445.chunk.css",
-  "main.js": "/static/js/main.85e29a81.chunk.js",
-  "main.js.map": "/static/js/main.85e29a81.chunk.js.map",
+  "main.css": "/static/css/main.b214bf40.chunk.css",
+  "main.js": "/static/js/main.9daf4263.chunk.js",
+  "main.js.map": "/static/js/main.9daf4263.chunk.js.map",
   "static/js/1.9b769489.chunk.js": "/static/js/1.9b769489.chunk.js",
   "static/js/1.9b769489.chunk.js.map": "/static/js/1.9b769489.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -12,8 +12,8 @@
   "static/media/pin-pong.svg": "/static/media/pin-pong.ae902787.svg",
   "static/media/fullName.css": "/static/media/avatar.90a9536e.png",
   "static/media/headphones.svg": "/static/media/headphones.d2852c37.svg",
-  "static/css/main.4570d445.chunk.css.map": "/static/css/main.4570d445.chunk.css.map",
+  "static/css/main.b214bf40.chunk.css.map": "/static/css/main.b214bf40.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b08b7c0785e0ec3b0cddb7570f32261b.js": "/precache-manifest.b08b7c0785e0ec3b0cddb7570f32261b.js",
+  "precache-manifest.7b8805614ad6c4a3390cce8643c02b21.js": "/precache-manifest.7b8805614ad6c4a3390cce8643c02b21.js",
   "service-worker.js": "/service-worker.js"
 }
