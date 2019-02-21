@@ -33,12 +33,9 @@
     margin-bottom: 1rem;
 }
 .expirience_fix {
-    /* display: block; */
     flex-direction: unset;
 }
 .tetss {
-    /* flex-basis: 30%; */
-    
     display: flex;
     justify-content: space-between;
 }
