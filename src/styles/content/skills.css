@@ -3,9 +3,6 @@
     background-color: lightgrey;
     padding: 10px;
 }
-.skillbar {
-    border-radius: 15rem;
-}
 .skillbar-title {
     background-color: #fbac03;
     color: #ffffff;
@@ -14,5 +11,5 @@
     color: #222222;
 }
 .skillbar-bar {
-    background-color: #fbac03 !important;
+    width: auto !important;
 }

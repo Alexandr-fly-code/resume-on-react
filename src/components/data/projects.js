@@ -1,6 +1,15 @@
 export const projects = {
     project: 
     [{
+        name: "AutoBidMaster",
+        // beginEnd: "2018-2018",
+        description: "AutoBidMaster is a full-service online auto auction marketplace and the global leader in online vehicle salvage sales.",
+        stack: "HTML, CSS/SASS/SCSS, ES6, React JS, Vue, Angular, CoffeScript",
+        github: null,
+        demo: null,
+        link: 'https://www.autobidmaster.com/en/'
+    },
+    {
         name: "Serpstat",
         // beginEnd: "2018-2019",
         description: 
@@ -8,6 +17,7 @@ export const projects = {
         stack: "HTML, React Router, CSS, ES6, React JS, Axios, Redux, Redux-Saga",
         github: null,
         demo: null,
+        link: 'https://serpstat.com'
     },
     {
         name: "Beer market",
@@ -16,6 +26,7 @@ export const projects = {
         stack: "HTML, React Router, CSS/SASS, ES6, React JS, Axios, Redux",
         github: "https://github.com/Alexandr-fly-code/beerProject",
         demo: "https://beers-store.herokuapp.com/",
+        link: null
     },
     {
         name: "Music player",
@@ -24,5 +35,6 @@ export const projects = {
         stack: "HTML, React Router, CSS/SASS, ES6, React JS, Axios",
         github: "https://github.com/Alexandr-fly-code/musicPlayers",
         demo: "http://testing-security.zzz.com.ua/",
-    }]
+        link: null
+    }]    
 }

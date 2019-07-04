@@ -12,7 +12,7 @@ const Projects = ({...rest}) => {
         <div className="Projects">
             <div className="projects_text">
         <SectionName name="Projects"/></div>
-        {rest.projects.project.map(({name, description, stack, github, demo}) =>
+        {rest.projects.project.map(({name, description, stack, github, demo, link}) =>
             <Education 
                 positionOrNameProject={null} 
                 startOrBeginProject={null} 
@@ -24,6 +24,7 @@ const Projects = ({...rest}) => {
                 github={github}
                 demo={demo}
                 key={name}
+                link={link}
             />
             )}
         </div>

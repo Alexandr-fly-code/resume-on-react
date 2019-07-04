@@ -14,6 +14,7 @@
 .right_exp {
     flex-basis: 70%;
     text-align: left;
+    z-index: 2;
 }
 
 .start_work, .developer_position {
@@ -24,6 +25,11 @@
 }
 .company_name {
     color: #606163;
+}
+.company_link {
+    color: #FF0000;
+    margin-left: 10px;
+    cursor: pointer;
 }
 .start_work, .description {
     color: #808183;

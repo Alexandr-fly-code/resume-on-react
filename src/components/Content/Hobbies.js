@@ -10,47 +10,38 @@ import Little from '../../img/pin-pong.svg';
 import SectionName from './SectionName';
 
 const Hobbies = () => {
+    const hobbiesItems = [
+      {className: 'item_hobbies', src: Photography, altOrText: 'Photo', id: 1},
+      {className: 'item_hobbies', src: Code, altOrText: 'Code', id: 2},
+      {className: 'item_hobbies', src: Tennis, altOrText: 'Tennis', id: 3},
+      {className: 'item_hobbies', src: Music, altOrText: 'Music', id: 4},
+      {className: 'item_hobbies', src: Little, altOrText: 'Ping-pong', id: 5},
+    ] 
 
-    const altProps = {
-        photo: 'Photography',
-        code: 'Code',
-        tennis: 'Tennis',
-        music: 'Music',
-        little: 'Little tennis',
+    function drawingHobbiesItems() {
+      return (
+        <ul className="wrap_hobbies">
+          {
+            hobbiesItems.map(({
+              className, 
+              src, 
+              altOrText,
+              id
+            }) => 
+            <li className={className} key={id}>
+              <img src={src} alt={altOrText}/>
+              {altOrText}
+            </li>
+          )}
+        </ul>
+      )
     }
-    const { photo, code, tennis, music, little } = altProps;
+
     return (
         <div className="Hobbies">
 
         <SectionName name="Hobbies"/>
-
-            <ul className="wrap_hobbies">
-                
-                <li className="item_hobbies">
-                    <img 
-                        src={Photography} 
-                        alt={photo}/>Photo</li>
-
-                <li className="item_hobbies">
-                    <img 
-                        src={Code} 
-                        alt={code}/>Code</li>
-
-                <li className="item_hobbies">
-                    <img 
-                        src={Tennis} 
-                        alt={tennis}/>Tennis</li>
-
-                <li className="item_hobbies">
-                    <img 
-                        src={Music} 
-                        alt={music}/>Music</li>
-
-                <li className="item_hobbies">
-                    <img 
-                        src={Little} 
-                        alt={little}/>Little tennis</li>
-            </ul>
+           {drawingHobbiesItems()} 
         </div>
     );
 }

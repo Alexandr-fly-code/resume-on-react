@@ -7,14 +7,19 @@ import SectionName from './SectionName';
 
 const Skills = () => {
     const skills = [
-        {type: "Javascript", level: 100},
-        {type: "React", level: 100},
-        {type: "Redux", level: 100},
-        {type: "Saga", level: 100},
-        {type: "HTML5", level: 100},
-        {type: "CSS", level: 100},
-        {type: "BEM", level: 100},
-        {type: "Git", level: 100},
+        {type: "Javascript"},
+        {type: "React"},
+        {type: "Redux"},
+        {type: "Saga"},
+        {type: "HTML5"},
+        {type: "CSS"},
+        {type: "SCSS"},
+        {type: "SASS"},
+        {type: "BEM"},
+        {type: "Git"},
+        {type: "Bitbucket"},
+        {type: "Jira"},
+        {type: "Figma"}
       ];
 
       

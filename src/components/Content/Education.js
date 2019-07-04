@@ -17,6 +17,7 @@ const Education = (
         sectionName,
         github,
         demo,
+        link
         // background,
     }
 ) => {
@@ -33,7 +34,11 @@ const Education = (
                     
                 </div>
                 <div className="right_exp">
-                    <p className={sectionName !== "Projects" ? "company_name" : "company_name_blue"}>{nameCompanyOrProject}</p>
+                    <p className={sectionName !== "Projects" ? "company_name" : "company_name_blue"}>
+                      {nameCompanyOrProject}
+                      {link !== null && sectionName === "Projects" && <a href={link} className="company_link">link</a>}
+                    </p>
+
                     <p className="description">{description}</p>
 
                 { sectionName === "Projects" ? github !== null || demo !== null ? 

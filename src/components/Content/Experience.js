@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../styles/content/experience.css';
 import SectionName from './SectionName';
-import PropTypes from 'prop-types';
 
 const Experience = ({...rest}) => {
 
