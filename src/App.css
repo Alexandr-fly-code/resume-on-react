@@ -16,7 +16,7 @@ ul{
   display: none;
 }
 .skillbar {
-  background-color: #fbac03;
+  background-color: #fbac03 !important;
 }
 .skillbar-title {
   width: 100% !important;

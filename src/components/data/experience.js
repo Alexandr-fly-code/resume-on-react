@@ -1,9 +1,19 @@
 export const experiences = {
     experience: 
     [{
+        name: "AUTOBIDMASTER",
+        position: "- Front-End developer",
+        workPeriod: "March 2019 - Present",
+        activity: [
+            "HTML, JavaScript coding",
+            "Teamwork on scrum system"
+        ],
+        id: Date.now(),
+    },
+    {
         name: "SERPSTAT (REMOTE)",
         position: "- Front-End developer",
-        workPeriod: "Oct 2018- Present",
+        workPeriod: "Oct 2018 - Feb 2019",
         activity: [
             "HTML, JavaScript coding",
             "Create Single-Page Application",

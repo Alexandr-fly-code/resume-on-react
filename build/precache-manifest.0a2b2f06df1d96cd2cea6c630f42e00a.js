@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/headphones.d2852c37.svg"
   },
   {
-    "revision": "9daf426375e477807287",
-    "url": "/static/css/main.b214bf40.chunk.css"
+    "revision": "07a8953e267f6bf71766",
+    "url": "/static/css/main.c6fdcd39.chunk.css"
   },
   {
-    "revision": "9b76948911e9c197b00f",
-    "url": "/static/js/1.9b769489.chunk.js"
+    "revision": "70d4854280321ec206b0",
+    "url": "/static/js/1.70d48542.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/photo-camera.506975e6.svg"
   },
   {
-    "revision": "9daf426375e477807287",
-    "url": "/static/js/main.9daf4263.chunk.js"
+    "revision": "07a8953e267f6bf71766",
+    "url": "/static/js/main.07a8953e.chunk.js"
   },
   {
     "revision": "d38694f809859add39e67cffc90c3006",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/static/media/pin-pong.ae902787.svg"
   },
   {
-    "revision": "90a9536ecfaea7d513d9e533ba54a676",
-    "url": "/static/media/avatar.90a9536e.png"
+    "revision": "e63ccaf021b83601a1481ae071144c5c",
+    "url": "/static/media/avatar.e63ccaf0.png"
   },
   {
-    "revision": "5b80bc2ac5784cc2bbc7ee7d71ef5578",
+    "revision": "519d319c437efeff4c6c3a9c314bc79d",
     "url": "/index.html"
   }
 ];
