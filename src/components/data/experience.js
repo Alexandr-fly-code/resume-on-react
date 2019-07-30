@@ -3,7 +3,7 @@ export const experiences = {
     [{
         name: "AUTOBIDMASTER",
         position: "- Front-End developer",
-        workPeriod: "March 2019 - Present",
+        workPeriod: "Nov 2018 - Present",
         activity: [
             "HTML, JavaScript coding",
             "Teamwork on scrum system"
